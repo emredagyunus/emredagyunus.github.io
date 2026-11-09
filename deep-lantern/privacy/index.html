@@ -35,7 +35,7 @@
     <img src="../icon.png" alt="" width="72" height="72">
     <div>
       <h1>Privacy policy</h1>
-      <p>Deep Lantern · Effective date: 30 October 2026</p>
+      <p>Deep Lantern · Effective date: 7 November 2026</p>
     </div>
   </header>
 
@@ -198,7 +198,9 @@
   <h3>Notifications</h3>
   <p>
     Reminders (for example "your daily reward is ready") are scheduled locally on your phone, only after you allow them.
-    There is no push server and no push token is collected.
+    Once you allow notifications, the app also registers a push token (an id from Apple or Google for this install) with
+    our server, together with your interface language, so we can send messages meant for you alone: a gift, a sub or a
+    note from the crew in your logbook. We never send advertising pushes.
   </p>
 
   <h3>Kept only on your phone</h3>
@@ -237,6 +239,8 @@
           <td><a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></td></tr>
         <tr><td>GameAnalytics (GameAnalytics ApS)</td><td>Game analytics: dives, pearls, purchases, ads, settings</td>
           <td><a href="https://gameanalytics.com/privacy">gameanalytics.com/privacy</a></td></tr>
+        <tr><td>Google Firebase Cloud Messaging</td><td>Push messages for you (gifts and logbook notes), delivered with your push token</td>
+          <td><a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></td></tr>
         <tr><td>Apple (App Store, App Attest) / Google (Play, Play Integrity)</td>
           <td>Payments, subscriptions, app delivery, the device check</td>
           <td><a href="https://www.apple.com/legal/privacy/">Apple</a> ·
@@ -266,7 +270,7 @@
     until you delete it or uninstall the app.
   </p>
 
-  <h2>Deleting your data</h2>
+  <h2 id="delete">Deleting your data</h2>
   <p>
     In the game: <strong>SETTINGS → SUPPORT → Delete my data</strong>.
     After you confirm, your account and its records are deleted from our server at once, everything stored on your phone
@@ -288,7 +292,7 @@
   <p>
     Deep Lantern is not directed at children under 13 and we do not knowingly collect personal data from them. The
     CADET mode for young players shows no ads at all. If you believe a child under 13 has given us
-    personal data, contact us and we will delete it.
+    personal data, contact us and we will delete it. The push token is kept until it stops working or you delete your data.
   </p>
 
   <h2>Changes</h2>

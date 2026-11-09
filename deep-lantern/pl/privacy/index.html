@@ -35,7 +35,7 @@
     <img src="../../icon.png" alt="" width="72" height="72">
     <div>
       <h1>Polityka prywatności</h1>
-      <p>Deep Lantern · Data wejścia w życie: 30 października 2026 r.</p>
+      <p>Deep Lantern · Data wejścia w życie: 7 listopada 2026 r.</p>
     </div>
   </header>
 
@@ -208,8 +208,11 @@
 
   <h3>Powiadomienia</h3>
   <p>
-    Przypomnienia (na przykład „twoja codzienna nagroda czeka”) są planowane lokalnie w telefonie, dopiero po twojej
-    zgodzie. Nie ma serwera push i nie zbieramy tokenu push.
+    Przypomnienia (na przykład „Twoja dzienna nagroda jest gotowa”) są planowane lokalnie na Twoim telefonie, dopiero
+    gdy na nie pozwolisz. Gdy zezwolisz na powiadomienia, aplikacja rejestruje też na naszym serwerze token push
+    (identyfikator od Apple lub Google dla tej instalacji) razem z językiem interfejsu, abyśmy mogli wysyłać wiadomości
+    przeznaczone tylko dla Ciebie: prezent, łódź podwodną lub notatkę od załogi w Twoim dzienniku pokładowym. Nigdy nie
+    wysyłamy reklamowych powiadomień push.
   </p>
 
   <h3>Co zostaje tylko w telefonie</h3>
@@ -249,6 +252,8 @@
           <td><a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></td></tr>
         <tr><td>GameAnalytics (GameAnalytics ApS)</td><td>Analityka gry: nurkowania, perły, zakupy, reklamy, ustawienia</td>
           <td><a href="https://gameanalytics.com/privacy">gameanalytics.com/privacy</a></td></tr>
+        <tr><td>Google Firebase Cloud Messaging</td><td>Wiadomości push dla Ciebie (prezenty i notatki w dzienniku), dostarczane z Twoim tokenem push</td>
+          <td><a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></td></tr>
         <tr><td>Apple (App Store, App Attest) / Google (Play, Play Integrity)</td>
           <td>Płatności, subskrypcje, dystrybucja aplikacji, sprawdzenie urządzenia</td>
           <td><a href="https://www.apple.com/legal/privacy/">Apple</a> ·
@@ -279,7 +284,7 @@
     dopóki ich nie usuniesz lub nie odinstalujesz aplikacji.
   </p>
 
-  <h2>Usuwanie danych</h2>
+  <h2 id="delete">Usuwanie danych</h2>
   <p>
     W grze: <strong>USTAWIENIA → POMOC → Usuń moje dane</strong>. Po
     potwierdzeniu twoje konto i jego rekordy są od razu usuwane z naszego serwera, wszystko zapisane w telefonie (postęp,
@@ -302,7 +307,7 @@
   <p>
     Deep Lantern nie jest skierowana do dzieci poniżej 13 lat i świadomie nie zbieramy od nich danych osobowych. Tryb
     KADET dla młodszych graczy nie pokazuje żadnych reklam. Jeśli uważasz, że dziecko poniżej 13
-    lat przekazało nam dane osobowe, skontaktuj się z nami, a je usuniemy.
+    lat przekazało nam dane osobowe, skontaktuj się z nami, a je usuniemy. Token push jest przechowywany, dopóki nie przestanie działać lub nie usuniesz swoich danych.
   </p>
 
   <h2>Zmiany</h2>

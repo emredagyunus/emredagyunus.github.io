@@ -35,7 +35,7 @@
     <img src="../../icon.png" alt="" width="72" height="72">
     <div>
       <h1>Politique de confidentialité</h1>
-      <p>Deep Lantern · Date d&#x27;entrée en vigueur : 30 octobre 2026</p>
+      <p>Deep Lantern · Date d&#x27;entrée en vigueur : 7 novembre 2026</p>
     </div>
   </header>
 
@@ -215,8 +215,11 @@
 
   <h3>Notifications</h3>
   <p>
-    Les rappels (par exemple « ta récompense quotidienne est prête ») sont programmés localement sur ton téléphone,
-    seulement après ton autorisation. Il n'y a pas de serveur push et aucun jeton push n'est collecté.
+    Les rappels (par exemple « ta récompense quotidienne est prête ») sont programmés localement sur ton téléphone,
+    seulement après que tu les as autorisés. Quand tu autorises les notifications, l'app enregistre aussi sur notre
+    serveur un jeton push (un identifiant d'Apple ou de Google pour cette installation) avec la langue de l'interface,
+    pour que nous puissions t'envoyer des messages destinés à toi seul : un cadeau, un sous-marin ou une note de
+    l'équipage dans ton journal de bord. Nous n'envoyons jamais de push publicitaires.
   </p>
 
   <h3>Ce qui reste uniquement sur ton téléphone</h3>
@@ -258,6 +261,8 @@
           <td><a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></td></tr>
         <tr><td>GameAnalytics (GameAnalytics ApS)</td><td>Analyse du jeu : plongées, perles, achats, publicités, réglages</td>
           <td><a href="https://gameanalytics.com/privacy">gameanalytics.com/privacy</a></td></tr>
+        <tr><td>Google Firebase Cloud Messaging</td><td>Messages push pour toi (cadeaux et notes du journal de bord), envoyés avec ton jeton push</td>
+          <td><a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></td></tr>
         <tr><td>Apple (App Store, App Attest) / Google (Play, Play Integrity)</td>
           <td>Paiements, abonnements, distribution de l'application, vérification de l'appareil</td>
           <td><a href="https://www.apple.com/legal/privacy/">Apple</a> ·
@@ -290,7 +295,7 @@
     restent jusqu'à ce que tu les supprimes ou désinstalles l'application.
   </p>
 
-  <h2>Supprimer tes données</h2>
+  <h2 id="delete">Supprimer tes données</h2>
   <p>
     Dans le jeu : <strong>RÉGLAGES → ASSISTANCE → Supprimer mes données</strong>.
     Après confirmation, ton compte et ses données sont aussitôt supprimés de notre serveur, tout ce qui est stocké sur
@@ -316,7 +321,7 @@
     Deep Lantern ne s'adresse pas aux enfants de moins de 13 ans et nous ne collectons pas sciemment de données
     personnelles auprès d'eux. Le mode CADET pour les jeunes joueurs n'affiche aucune publicité.
     Si tu penses qu'un enfant de moins de 13 ans nous a fourni des données personnelles, contacte-nous et nous les
-    supprimerons.
+    supprimerons. Le jeton push est conservé jusqu'à ce qu'il ne fonctionne plus ou que tu supprimes tes données.
   </p>
 
   <h2>Modifications</h2>
