@@ -35,7 +35,7 @@
     <img src="../icon.png" alt="" width="72" height="72">
     <div>
       <h1>Privacy policy</h1>
-      <p>Deep Lantern · Effective date: 7 November 2026</p>
+      <p>Deep Lantern · Effective date: 18 November 2026</p>
     </div>
   </header>
 
@@ -123,11 +123,15 @@
     streaks.
   </p>
 
-  <h3>Feedback and reports</h3>
+  <h3>Feedback, reports and blocks</h3>
   <p>
-    If you write a note in the rating sheet, its stars and text are sent to us. If you report another player on a
-    leaderboard, their anonymous id and the reason are sent to us. If you email us, we receive your email address and
-    message and use them only to answer you.
+    If you send a note with Send feedback, its text is sent to us with your anonymous user id. If you report
+    another player on a leaderboard, their anonymous id and the reason are sent to us. If you block a diver, the block
+    (your anonymous id and theirs) is kept on your phone and on our server, so their name and scores stay off your
+    leaderboards on every device; they are not told. You can unblock them in SETTINGS →
+    SUPPORT → Blocked divers. If you email us, we receive your email address
+    and message and use them only to answer you.
+    <br><strong>Why:</strong> to hear from players and to keep the leaderboards friendly.
   </p>
 
   <h3>Device check at sign-up</h3>
@@ -199,20 +203,39 @@
   <p>
     Reminders (for example "your daily reward is ready") are scheduled locally on your phone, only after you allow them.
     Once you allow notifications, the app also registers a push token (an id from Apple or Google for this install) with
-    our server, together with your interface language, so we can send messages meant for you alone: a gift, a sub or a
-    note from the crew in your logbook. We never send advertising pushes.
+    our server, together with your interface language. We use it for push messages about the game: a gift, a sub or a
+    note from the crew in your logbook; news and in-game events; when another diver takes your place near the top of a
+    leaderboard; and your final rank in the Daily. So that you get at most one notification a day and never in your
+    quiet hours, the app also sends our server your notification switches, your quiet hours and the days your phone
+    already has a reminder planned, and our server records which notifications it sent and when. Each kind can be
+    switched off in SETTINGS → NOTIFICATIONS, and all of them in your phone's
+    settings. We never send pushes that advertise other companies' products.
+    <br><strong>Why:</strong> to tell you about gifts, events and results without sending too many notifications.
+  </p>
+
+  <h3>Game Center and Google Play Games</h3>
+  <p>
+    If you are signed in to Apple Game Center or Google Play Games Services on your phone, the game reports your
+    progress towards its achievements to them and reads your achievement progress back. Apple or Google show these
+    achievements on your platform profile under their own privacy policies; we receive no data about your Game Center
+    or Google account. You can sign out of them in your phone's settings.
+    <br><strong>Why:</strong> so you can collect the game's achievements on your platform profile.
   </p>
 
   <h3>Kept only on your phone</h3>
   <p>
-    Your settings (sound, haptics, languages, difficulty, accessibility), notification preferences and history, ad and
+    Your settings (sound, haptics, languages, difficulty, accessibility), the history of local reminders, ad and
     rating-prompt counters and your dive history beyond the last 50 dives never leave your phone.
   </p>
 
   <h3>What we do not collect</h3>
   <p>
     No email address (unless you email us), phone number, real name, contacts, photos, microphone, precise location,
-    account login or what you type in the game. We do not sell personal data.
+    account login or what you type in the game. We do not sell personal data for money. Letting Google AdMob use your
+    advertising identifier for personalised ads can count as "sharing" for advertising under some US state laws
+    (for example in California); you can stop it by not allowing tracking in Apple's prompt (or later in iPhone
+    Settings → Privacy &amp; Security → Tracking), by deleting or resetting the Advertising ID on Android, or in
+    SETTINGS → Ad privacy choices where it is shown.
   </p>
 
   <h2>Legal bases</h2>
@@ -239,10 +262,10 @@
           <td><a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></td></tr>
         <tr><td>GameAnalytics (GameAnalytics ApS)</td><td>Game analytics: dives, pearls, purchases, ads, settings</td>
           <td><a href="https://gameanalytics.com/privacy">gameanalytics.com/privacy</a></td></tr>
-        <tr><td>Google Firebase Cloud Messaging</td><td>Push messages for you (gifts and logbook notes), delivered with your push token</td>
+        <tr><td>Google Firebase Cloud Messaging</td><td>Push messages (gifts, logbook notes, events, leaderboard and Daily results), delivered with your push token</td>
           <td><a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></td></tr>
-        <tr><td>Apple (App Store, App Attest) / Google (Play, Play Integrity)</td>
-          <td>Payments, subscriptions, app delivery, the device check</td>
+        <tr><td>Apple (App Store, App Attest, Game Center) / Google (Play, Play Integrity, Play Games Services)</td>
+          <td>Payments, subscriptions, app delivery, the device check, achievements</td>
           <td><a href="https://www.apple.com/legal/privacy/">Apple</a> ·
             <a href="https://policies.google.com/privacy">Google</a></td></tr>
       </tbody>
@@ -264,7 +287,10 @@
     one-time reward it already received, without your account or any date: Fener's tour bonus and once-only store offers
     for as long as the game runs, the first-dive bonus and the daily chest until two days after their day. The device
     check's result is deleted with your data (a sign-up that was refused is kept 90 days), and the network address hash
-    after 2 days. Crash reports are kept by Sentry for up to 90 days. Game analytics data is kept by GameAnalytics under
+    after 2 days. If an account is suspended for breaking the terms of use, the one-way hashes of its devices are kept
+    after the account is deleted, until the suspension is lifted, so the same phone can't start a fresh account.
+    Blocks you made or received are deleted with your data. The push token is kept until it stops working or you
+    delete your data; your notification switches and the record of notifications sent are deleted with your data. Crash reports are kept by Sentry for up to 90 days. Game analytics data is kept by GameAnalytics under
     its own policy. Purchase records are kept by RevenueCat, Apple and Google as long as the law and their own policies
     require (for example for tax and refunds). Emails are kept as long as needed to answer them. Data on your phone stays
     until you delete it or uninstall the app.
@@ -288,11 +314,32 @@
     Write to us for anything else; you may also complain to your data protection authority.
   </p>
 
+  <h2 id="kvkk">Türkiye (KVKK)</h2>
+  <p>
+    For players in Türkiye this policy is also our information notice under Article 10 of Law No. 6698 on the
+    Protection of Personal Data (KVKK). The data controller is Yunus Emre Dağ, Gültepe Mah., Şehit Özcan Demirci Cad. No: 28 Daire: 12, 34295 Küçükçekmece / İstanbul, Türkiye. The data described above is
+    collected by automated means through the app and our server, for the purposes given under each heading, on these
+    legal bases: it is necessary to provide the game you use (Article 5/2-c), for our legitimate interests in keeping
+    the game secure and fair and in fixing bugs (Article 5/2-f), to meet legal obligations such as tax records
+    (Article 5/2-ç), and with your consent where a heading says so. It is transferred to the service providers listed
+    under "Who receives data"; most of them process it outside Türkiye.
+  </p>
+  <p>
+    Under Article 11 of the KVKK you can ask us whether your personal data is processed and for information about it;
+    learn why it is processed and whether it is used for that purpose; know the third parties in Türkiye or abroad it
+    is transferred to; ask for incomplete or incorrect data to be corrected, and for your data to be deleted or
+    destroyed, and for these steps to be passed on to those third parties; object to a result against you that comes
+    only from automated analysis; and claim compensation for damage caused by unlawful processing. Send your request
+    to <a href="mailto:deeplanterngame@gmail.com?subject=KVKK">deeplanterngame@gmail.com</a> or in writing to the address above; we answer free of
+    charge within 30 days at the latest. If your request is refused or not answered, you can complain to the Personal
+    Data Protection Authority (Kişisel Verileri Koruma Kurumu).
+  </p>
+
   <h2>Children</h2>
   <p>
     Deep Lantern is not directed at children under 13 and we do not knowingly collect personal data from them. The
     CADET mode for beginners shows no ads at all. If you believe a child under 13 has given us
-    personal data, contact us and we will delete it. The push token is kept until it stops working or you delete your data.
+    personal data, contact us and we will delete it.
   </p>
 
   <h2>Changes</h2>
